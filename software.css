@@ -1,0 +1,259 @@
+body{
+font-family: Verdana;
+background-image: url(imagenes/fondo6.png);
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+  
+
+
+header{
+width: 100%;
+height: 100px;
+}
+    
+header h1{
+text-align: center;
+word-spacing:60px;
+letter-spacing: 5px;
+font-style: italic;
+font-family: verdana;
+background: url(imagenes/fondo_letras.jpg);
+-webkit-background-clip: text; 
+background-clip: text;
+color:transparent;
+font-size: 40px;
+}
+    
+header img{
+float: left;
+width: 200px;
+margin:0;            
+}
+
+/*MENU*/
+
+.navegacion{
+width: 1000px;
+margin: 30px auto;
+}
+    
+.navegacion ul{
+list-style: none;
+list-style-type: none;
+}
+    
+.menu > li{
+position: relative;
+display: inline-block;
+margin-right: 50px;
+}
+    
+.menu > li > a{
+display: block;
+padding: 15px 20px;
+color: #353535;
+font-family: 'Open sans';
+text-decoration: none;
+}
+
+.menu li a:hover{
+color: #CE7D35;
+transition: all .3s;
+}
+    
+    
+.submenu{
+position: absolute;
+background: #333333;
+width: 100%;
+visibility: hidden;
+opacity: 0;
+transition: opacity 1.5s;
+}
+        
+.submenu li a{
+display: block;
+padding: 15px;
+padding-left: 0px;
+color: #fff;
+font-family: 'Open sans';
+text-decoration: none;
+}
+        
+.menu li:hover .submenu{
+visibility: visible;
+opacity: 1;
+}
+
+/*FIN DEL MENU */
+
+/*Antivirus*/
+
+main{
+margin-left: 1%;
+margin-right: 1%;    
+}
+
+section#antivirus{
+margin-top:40px;
+}
+
+section#antivirus h2{
+text-align: center;
+margin-bottom: 50px;
+}
+
+div{
+display: inline-block;
+margin-left: 215px;
+margin-right: 180px;
+margin-bottom: 50px;
+}
+
+div p{
+font-weight: bold;
+text-align: left;
+}
+
+
+div p span:last-child{
+color:red;
+text-decoration:line-through;
+}
+
+div img{
+width: 100px;
+padding: 30px; 
+}
+        
+div input{
+width: 40px;
+float: right;
+border:0;
+outline: 0;
+}
+    
+
+
+
+button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 20px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+border-radius: 20px;
+width: 100%;
+font-size: 18px;
+
+}
+button a{
+color: white;
+text-decoration: none;    
+
+}
+
+
+/*Antivirus*/
+
+section#antivirus div{
+background-color:lightgreen;
+height: 350px;
+width: 250px;
+border-radius: 25px;
+text-align: center;
+padding:15px;
+}
+
+section#antivirus div:hover{
+background-color:lightseagreen;
+height: 350px;
+width: 250px;
+border-radius: 25px;
+text-align: center;
+padding:15px;
+}
+
+/*Windows*/
+
+section#windows h2{
+text-align: center;
+margin-top: 30px;
+margin-bottom: 40px;
+}
+
+section#windows div{
+background-color:lightskyblue;
+height: 380px;
+width: 250px;
+border-radius: 25px;
+text-align: center;
+padding:15px;
+}
+    
+section#windows div:hover{
+background-color:#6495ED;
+height: 380px;
+width: 250px;
+border-radius: 25px;
+text-align: center;
+padding:15px;
+}
+
+
+
+/*Office*/
+
+section#office h2{
+text-align: center;
+margin-top:30px;
+margin-bottom:40px;
+}
+
+section#office div{
+background-color:orange;
+height: 380px;
+width: 250px;
+border-radius: 25px;
+text-align: center;
+padding:15px;
+}
+        
+section#office div:hover{
+background-color:#FF8C00;
+height: 380px;
+width: 250px;
+border-radius: 25px;
+text-align: center;
+padding:15px;
+}
+    
+
+
+/*Footer*/
+
+footer{
+background:#303440;
+color:white;
+text-align:center;
+width: 100%;
+position:static;
+height: 80px;
+margin-top:50px;
+padding-top: 20px;
+}
+    
+footer a{
+text-decoration: none;
+color: #fff;
+}
+    
+    

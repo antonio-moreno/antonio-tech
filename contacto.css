@@ -1,0 +1,198 @@
+
+body{
+font-family: Verdana;
+background-image: url(imagenes/fondo6.png);
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+    
+header{
+width: 100%;
+height: 100px;
+}
+    
+header h1{
+text-align: center;
+word-spacing:60px;
+letter-spacing: 5px;
+font-style: italic;
+font-family: verdana;
+background: url(imagenes/fondo_letras.jpg);
+-webkit-background-clip: text; 
+background-clip: text;
+color:transparent;
+font-size: 40px;
+}
+
+header img{
+float: left;
+width: 200px;
+margin:0;            
+}
+    
+    /*MENU*/
+
+.navegacion{
+width: 1000px;
+margin: 30px auto;
+}
+        
+.navegacion ul{
+list-style: none;
+list-style-type: none;
+}
+        
+.menu > li{
+position: relative;
+display: inline-block;
+margin-right: 85px;
+}
+        
+.menu > li > a{
+display: block;
+padding: 15px 20px;
+color: #353535;
+font-family: 'Open sans';
+text-decoration: none;
+}
+
+.menu li a:hover{
+color: #CE7D35;
+transition: all .3s;
+}
+        
+        
+.submenu{
+position: absolute;
+background: #333333;
+width: 120%;
+visibility: hidden;
+opacity: 0;
+transition: opacity 1.5s;
+}
+        
+.submenu li a{
+display: block;
+padding: 15px;
+padding-left: 0px;
+color: #fff;
+font-family: 'Open sans';
+text-decoration: none;
+}
+        
+.menu li:hover .submenu{
+visibility: visible;
+opacity: 1;
+}
+/*FIN DEL MENU*/
+
+main{
+margin-left:10%;
+margin-right:10%;
+margin-top:4%;
+}
+
+article h2{
+margin-bottom: 30px;    
+}
+
+section{
+margin-bottom: 60px;    
+}
+
+/*FORMULARIO*/
+
+form{
+padding: 60px;
+width: 600px;
+background-image: url(imagenes/fondo8.png);
+margin: 0 auto;
+padding-top:40px; 
+border-radius: 20px;
+color:white;
+}
+
+
+form input[type ="text"],[type ="email"],[type ="tel"]{
+width:30%;
+display: inline-block;
+margin: 10px;
+}
+
+form select{
+width: 10%;
+height: 20px;
+
+}
+
+form textarea{
+border-radius: 10px;
+outline: none;
+}
+
+form input[type="submit"],[type="reset"]{
+background-color:goldenrod;
+border-radius: 20px;
+padding: 10px;
+width: 150px;
+border:none;
+margin-right:20px;
+}
+
+form input[type="submit"]:hover,[type="reset"]:hover{
+background-color:darkgoldenrod;
+border-radius: 20px;
+padding: 10px;
+width: 150px;
+margin-right:20px;
+}
+/*FIN DEL FORMULARIO*/
+
+article p{
+line-height: 35px;    
+}
+
+/*REDES SOCIALES*/
+div.redes img{
+width: 50px;
+margin-right: 3%;   
+}
+    
+div.redes{
+display: inline-block;
+margin-top:10%;
+width: 700px;
+}
+
+    
+/*IFRAME*/
+
+iframe{
+float:right;
+margin: 20px;
+}
+
+/*PIE DE PAGINA*/
+footer{
+background:#303440;
+color:white;
+text-align:center;
+width: 100%;
+position:static;
+height: 80px;
+margin-top:50px;
+padding-top:5px;
+clear:both
+}
+    
+    
+footer a{
+text-decoration: none;
+color: #fff;
+}
+    
+    

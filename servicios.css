@@ -1,0 +1,206 @@
+body{
+font-family: Verdana;
+background-image: url(imagenes/fondo6.png);
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+
+header{
+width: 100%;
+}
+
+header h1{
+text-align: center;
+word-spacing:60px;
+letter-spacing: 5px;
+font-style: italic;
+font-family: verdana;
+background: url(imagenes/fondo_letras.jpg) no-repeat ;
+-webkit-background-clip: text; 
+background-clip: text;
+color:transparent;
+font-size: 40px
+}
+
+
+/*MENU*/
+
+.navegacion{
+width: 1000px;
+margin: 30px auto;
+}
+
+.navegacion ul{
+list-style: none;
+list-style-type: none;
+}
+
+.menu > li{
+position: relative;
+display: inline-block;
+margin-right: 50px;
+
+}
+
+.menu > li > a{
+display: block;
+padding: 15px 20px;
+color: #353535;
+font-family: 'Open sans';
+text-decoration: none;
+}
+
+.menu li a:hover{
+color: #CE7D35;
+transition: all .3s;
+}
+
+
+.submenu{
+position: absolute;
+background: #333333;
+width: 100%;
+visibility: hidden;
+opacity: 0;
+transition: opacity 1.5s;
+}
+    
+.submenu li a{
+display: block;
+padding: 15px;
+padding-left: 0px;
+color: #fff;
+font-family: 'Open sans';
+text-decoration: none;
+}
+    
+.menu li:hover .submenu{
+visibility: visible;
+opacity: 1;
+}
+
+/*FIN DEL MENU */
+section a{
+text-decoration: none;
+}
+
+section h2{
+text-align: center;
+margin-top: 40px;
+}
+
+section#precios h5{
+text-align: center;
+}
+
+article.servicios{
+display: block;
+
+}
+article p{
+border-radius: 10px;
+border:2px black solid;
+padding:30px;
+margin: auto;
+margin-bottom: 70px;
+margin-top: 50px;
+height: 40px;
+line-height:40px;
+width: 250px;
+transition: transform .2s;
+text-align: center;
+}
+
+article p:hover{
+background-image:url(Servicios/formateo.gif);
+background-size:cover;
+background-repeat: no-repeat; 
+background-position:center ;
+color:#fff;
+height:150px;
+width: 250px;
+line-height: 300px;
+font-size: 10px;
+transform: scale(1.5);
+text-align: center;
+}
+
+
+article p#virus:hover{
+background-image: url(Servicios/virus2.gif);
+background-size:cover;
+background-repeat: no-repeat; 
+background-position:center ;
+color:#fff;
+transform: scale(1.5); 
+}
+
+article p#hardware:hover{
+background-image: url(Servicios/hardware.gif);
+background-size:cover;
+background-repeat: no-repeat; 
+background-position:center ;
+color:#fff;
+transform: scale(1.5); 
+}  
+
+form{
+padding: 60px;
+max-width: 400px;
+background-image: url(imagenes/fondo2.png);
+margin: 0 auto;
+padding-top:10px; 
+}
+          
+input[type ="submit"],input[type = "reset"]{
+background-color: orange;
+padding: 10px;
+width:170px;
+margin-right: 20px;
+border:none;
+font-weight: bold;
+border-radius: 25px;
+outline: none;
+}
+    
+input[type ="submit"]:hover,input[type = "reset"]:hover{
+background-color:lightgray;
+padding: 10px;
+width:170px;
+margin-right: 20px;
+}
+    
+table{
+margin: auto;
+margin-top: 40px;
+width: 60%;
+height: 130px;
+}
+
+table td{
+height:40px;
+}
+
+footer{
+background:#303440;
+color:white;
+text-align:center;
+width: 100%;
+position:static;
+height: 80px;
+margin-top:50px;
+padding-top: 20px;
+}
+
+footer a{
+text-decoration: none;
+color: #fff;
+}
+
+
+

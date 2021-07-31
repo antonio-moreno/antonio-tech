@@ -1,0 +1,10 @@
+body{
+font-family: Verdana;
+background-image: url(imagenes/fondo.png);
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+text-align: center;
+margin-top: 20%;
+font-size: 40px;
+}

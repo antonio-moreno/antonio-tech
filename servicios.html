@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,intial-scale=9" />
+    <link href="servicios.css" rel="stylesheet" type="text/css">
+	<link rel="icon" sizes="72x72" href="imagenes/fondo.ico">
+    <title>Servicios</title>
+</head>
+<body>
+    <header>
+		<h1 id="inicio">SERVICIOS<br>INFORMÁTICOS</h1>
+		<nav class="navegacion">
+		<ul class="menu">
+            <li><a href="servicios.html" target="blank">Servicios</a>
+				<ul class="submenu">
+					<li><a href="#formulario">Formulario</a></li>
+					<li><a href="#precios">Precios</a></li>
+				</ul>
+			</li>
+			<li><a href="software.html">Software</a>
+				<ul class="submenu">
+					<li><a href="software.html#antivirus">Antivirus</a></li>
+					<li><a href="software.html#windows">Windows</a></li>
+					<li><a href="software.html#office">Office</a></li>
+				</ul>
+			</li>
+			<li><a href="antonio_tech.html">Proyecto</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="noticias.html">Noticias</a></li>
+            <li><a href="index.html">Inicio</a></li>
+		</ul>
+		</nav>
+	</header>
+    <main>
+        <section id="servicios">
+            <!--Arreglar los articles-->
+               <article class="servicios">
+                   <p id="formatear">Formatear y reinstalar sistema</p>
+                   <p id="virus">Limpieza de virus</p>
+                   <p id="hardware">Reparación de hardware</p>
+               </article>
+        </section>
+        <section id="formulario">
+            <h2 >Seleccione sus servicios</h2>
+                <!--Formulario-->
+                <!--Poner Correo Predeterminado en Windows 10-->
+                <form  method="POST" action="mailto:smr1819alum23@iescastelar.com"  enctype="text/plain">
+                      <h4>Información</h4>
+                      <p><label>Nombre: <input type="text" name="nombre" required></label></p>
+                      <p><label>Dirección de correo: <input type="text" name="correo" required></label></p>
+                      <p><label>Breve Descripcion de su avería:</label><textarea name="mensaje" required></textarea></p>
+                      <p>Servicios</p>
+                        <label><input type="checkbox" name="Formatear y reinstalar sistema operativo">Formatear y reinstalar sistema operativo</label><br><br>
+                        <label><input type="checkbox" name="Limpieza de virus y programas no deseados">Limpieza de virus y programas no deseados</label><br><br>
+                        <label><input type="checkbox" name="Reparación de hardware Y componentes">Reparación de hardware Y componentes</label><br><br>
+                      </p> 
+                      <input type="submit" value="Enviar Mensaje" >
+                      <input type="reset" value="Borrar">
+                  </form>
+        </section>
+        <section id="precios">
+            <h2>Precios</h2>
+            <article>
+                <!-- Tabla de Precios -->
+                <table>
+                    <tr>
+                        <td>Servicios informaticos</td>
+                        <td>Precio En Euros</td>
+                    </tr>
+                    <tr>
+                        <td>Formatear y reinstalar sistema operativo</td>
+                        <td>35 € - 60€</td>
+                    </tr>
+                    <tr>
+                        <td>Limpieza de virus y programas no deseados</td>
+                        <td>10 € - 20 €</td>
+                    </tr>
+                    <tr>
+                        <td>Reparación de hardware Y componentes</td>
+                        <td>Desde 20 €</td>
+                    </tr>
+                </table>
+                    <h5>*Precio Media Nacional</h5>
+            </article>
+        </section>
+    </main>
+    <footer>
+    	<p>Copyright 2021 &#169; Antonio Tech</p>
+        <p><a href="index.html">Inicio</a></p>
+    </footer>
+</body>
+</html>
