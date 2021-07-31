@@ -1,0 +1,125 @@
+body{
+    font-family: Verdana;
+    background-image: url(imagenes/fondo6.png);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    
+    
+header{
+    width: 100%;
+    }
+    
+header h1{
+    text-align: center;
+    word-spacing:60px;
+    letter-spacing: 5px;
+    font-style: italic;
+    font-family: verdana;
+    background: url(imagenes/fondo_letras.jpg) no-repeat ;
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color:transparent;
+    font-size: 40px
+    }
+    
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    }
+    
+.navegacion ul{
+    list-style: none;
+    list-style-type: none;
+    }
+    
+.menu > li{
+    position: relative;
+    display: inline-block;
+    margin-right: 85px;
+    
+    }
+    
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+    }
+    
+.menu li a:hover{
+    color: #CE7D35;
+    transition: all .3s;
+    }
+    
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    }
+    
+.submenu li a{
+    display: block;
+    padding: 15px;
+    padding-left: 0px;
+    color: #fff;
+    font-family: 'Open sans';
+    text-decoration: none;
+    }
+    
+.menu li:hover .submenu{
+visibility: visible;
+opacity: 1;
+}
+    
+/*FIN DEL MENU */
+
+
+main{
+margin-left:10%;
+margin-right:10%;
+margin-top:4%;
+}
+
+h1{
+margin-bottom: 60px;
+
+}
+
+article{
+border:5px solid black ;
+margin-bottom: 80px;
+width:100%;
+padding: 0px;
+}
+
+section h2{
+color:#303440;
+
+}
+  
+
+footer{
+background:#303440;
+color:white;
+text-align:center;
+width: 100%;
+position:static;
+height: 80px;
+margin-top:50px;
+padding-top:5px;
+}
+    
+footer a{
+text-decoration: none;
+color: #fff;
+}
+    
